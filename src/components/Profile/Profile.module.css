@@ -1,0 +1,49 @@
+.profileCard {
+  width: 280px;
+  height: 292px;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #f7f7f7;
+  padding-top: 10px;
+  margin-bottom: 50px;
+}
+
+.avatarProfile {
+  width: 100px;
+  height: 100px;
+  background-color: #919191;
+  border-radius: 50%;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.info {
+  color: #a3a3a3;
+}
+
+.listStats {
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-color: #c8c9cc;
+}
+
+.statInfo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  border-top: 2px solid #a3a3a3;
+}
+
+.statInfo:not(:last-child) {
+  border-right: 2px solid #a3a3a3;
+}
+
+.statData {
+  font-weight: bold;
+}

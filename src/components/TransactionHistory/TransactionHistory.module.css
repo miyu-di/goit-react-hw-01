@@ -1,0 +1,24 @@
+.tablet {
+  width: 600px;
+  height: 350px;
+  margin-bottom: 50px;
+  border: 2px solid #19191a;
+}
+
+.table * {
+  padding: 8px;
+  text-align: center;
+}
+
+.header {
+  background-color: #19191a;
+  color: white;
+}
+
+.columns {
+  text-transform: capitalize;
+}
+
+.columns:nth-child(even) {
+  background-color: #c0c0c0;
+}
